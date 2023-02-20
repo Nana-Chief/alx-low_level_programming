@@ -5,7 +5,7 @@
 /**
  * main - Entry point
  *
- * Description: 'Last digit'
+ * Description: 'I play what I call the alphabet game'
  *
  * Return: Always 0 (Success)
  */
@@ -17,7 +17,6 @@ int main(void)
 	for (low = 'a'; low <= 'z'; low++)
 	{
 		putchar(low);
-		putchar('\n');
 	}
 	return (0);
 }
